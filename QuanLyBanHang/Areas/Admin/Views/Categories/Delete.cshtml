@@ -1,0 +1,34 @@
+﻿@model QuanLyBanHang.Models.Category
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-6 grid-margin stretch-card mx-auto">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Delete Category</h4>
+                <p>Are you sure you want to delete this ?</p>
+                <form asp-action="Delete" class="forms-sample">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="CategoryId" />
+                    <div class="form-group">
+                        <label asp-for="CategoryName" class="control-label">Category Name</label>
+                        <input readonly asp-for="CategoryName" class="form-control" />
+                        <span asp-validation-for="CategoryName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Delete" class="btn btn-gradient-danger" />
+                        <a class="btn btn-gradient-light" asp-action="Index">Cancel</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

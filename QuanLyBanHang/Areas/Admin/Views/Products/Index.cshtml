@@ -1,0 +1,93 @@
+﻿@model IEnumerable<QuanLyBanHang.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h2 class="mb-4">Products table</h2>
+
+            @if (ViewBag.SuccessMessage != null)
+            {
+                <div id="successMessage" class="alert alert-success">Source Action @ViewBag.SourceAction : @ViewBag.SuccessMessage</div>
+
+                <script>
+                    // Tự động ẩn thông báo thành công sau 3 giây
+                    setTimeout(function () {
+                        var successMessage = document.getElementById('successMessage');
+                        if (successMessage) {
+                            successMessage.style.display = 'none';
+                        }
+                    }, 3000);
+                </script>
+            }
+
+            @if (ViewBag.ErrorMessage != null)
+            {
+                <div id="errorMessage" class="alert alert-danger">Source Action @ViewBag.SourceAction : @ViewBag.ErrorMessage</div>
+
+                <script>
+                    // Tự động ẩn thông báo lỗi sau 3 giây
+                    setTimeout(function () {
+                        var errorMessage = document.getElementById('errorMessage');
+                        if (errorMessage) {
+                            errorMessage.style.display = 'none';
+                        }
+                    }, 3000);
+                </script>
+            }
+
+            <a asp-action="Create" type="button" class="btn mb-5 btn-gradient-primary btn-fw">Create New</a>
+
+            <table id="table-products" class="table table-striped" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>
+                            Category
+                        </th>
+                        <th>
+                            Product Name
+                        </th>
+                        <th>
+                            Cost Price
+                        </th>
+                        <th>
+                            Selling Price
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Category.CategoryName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ProductName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CostPrice)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.SellingPrice)
+                            </td>
+                            <td>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <a type="button" class="btn btn-sm btn-gradient-info" asp-action="Edit" asp-route-id="@item.ProductId">Edit</a> |
+                                    <a type="button" class="btn btn-sm btn-gradient-success" asp-action="Details" asp-route-id="@item.ProductId">Detail</a> |
+                                    <a type="button" class="btn btn-sm btn-gradient-danger" asp-action="Delete" asp-route-id="@item.ProductId">Delete</a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+</div>

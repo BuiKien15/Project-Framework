@@ -1,0 +1,73 @@
+﻿@model QuanLyBanHang.Models.Product
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Create Product</h4>
+            <form class="forms-sample" asp-action="Create" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="CategoryId" class="control-label">Category</label>
+                    <select asp-for="CategoryId" class="form-control form-control-sm" asp-items="ViewBag.CategoryId"></select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ProductName" class="control-label">Product Name</label>
+                    <input asp-for="ProductName" class="form-control" />
+                    <span asp-validation-for="ProductName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="CostPrice" class="control-label">Cost Price</label>
+                    <input type="number" min="0" required asp-for="CostPrice" class="form-control" />
+                    <span asp-validation-for="CostPrice" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="SellingPrice" class="control-label">Selling Price</label>
+                    <input type="number" min="0" required asp-for="SellingPrice" class="form-control" />
+                    <span asp-validation-for="SellingPrice" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Description" class="control-label">Description</label>
+                    <textarea asp-for="Description" class="form-control" rows="5"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="form-group row align-items-center">
+                    <div class="col-6">
+                        <label asp-for="ImagePath" class="control-label">Image</label>
+                        <input type="file" asp-for="ImagePath" class="form-control" onchange="previewImage(this)" />
+                    </div>
+                    <div class="col-6 text-center">
+                        <img class="mx-auto" id="preview" src="#" alt="Preview" style="max-width: 200px; display: none;">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-gradient-primary" />
+                    <a class="btn btn-gradient-light" asp-action="Index">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+<script>
+    function previewImage(input) {
+        var preview = document.getElementById('preview');
+        preview.style.display = 'block';
+
+        var reader = new FileReader();
+        reader.onload = function (e) {
+            preview.src = e.target.result;
+        };
+        reader.readAsDataURL(input.files[0]);
+    }
+</script>
