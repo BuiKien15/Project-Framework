@@ -1,0 +1,40 @@
+﻿
+@{
+    Layout = null;
+}
+@model User
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login Form | CodingLab</title>
+        <link rel="stylesheet" href="/css/loginview.css" />
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="title"><span>Welcome Back</span></div>
+            @* <form action="#"> *@
+                @using(Html.BeginForm("Login", "Account", FormMethod.Post)){
+                <div class="row">
+                    <i class="fas fa-user"></i>
+                    @Html.TextBoxFor(x=> x.UserName, new{placeholder = "User Name", required = "required", autofocus = "autofocus"})
+                    @*<input type="text" placeholder="User Name" required/> *@
+                </div>
+            <div class="row">
+                <i class="fas fa-user"></i>
+                @Html.TextBoxFor(x => x.PassWord, new{placeholder = "Password", required = "required", autofocus = "autofocus"})
+                @* <input type="password" placeholder="Password" required/> *@
+            </div>
+            <div class="pass"><a href="#">Forgot password?</a></div>
+            <div class="row button">
+                <button type="submit">LOGIN</button>
+                @* <input type="submit" value="Login" /> *@
+            </div>
+            <div class="signup-link">Not a member? <a href="#">Signup now</a></div>
+            }
+            @* </form> *@
+        </div>
+    </body>
+</html>

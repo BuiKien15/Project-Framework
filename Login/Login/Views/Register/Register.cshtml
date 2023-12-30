@@ -1,0 +1,73 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<!-- Designed by CodingLab - youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form | CodingLab </title>
+    <link rel="stylesheet" href="/css/registerview.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Registration</div>
+        <div class="content">
+            @using (Html.BeginForm("Register", "Register", FormMethod.Post))
+            {
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Full Name</span>
+                        @Html.TextBox("Name", null, new
+                            {
+                                placeholder = "Enter your name",
+                                required = "required"
+                            })
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Username</span>
+                        @Html.TextBox("UserName", null, new { placeholder = "Enter your username", required = "required" })
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        @Html.TextBox("Email", null, new { placeholder = "Enter your email", required = "required" })
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Address</span>
+                        @Html.TextBox("Address", null, new { placeholder = "Enter your Address", required = "required" })
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Phone Number</span>
+                        @Html.TextBox("Phone", null, new
+                            {
+                                placeholder = "Enter your number",
+                                required = "required"
+                            })
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Password</span>
+                        @Html.Password("Password", null, new
+                            {
+                                placeholder = "Enter your password",
+                                required = "required"
+                            })
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Confirm Password</span>
+                        @Html.Password("ConfirmPassword", null, new
+                            {
+                                placeholder = "Confirm your password",
+                                required = "required"
+                            })
+                    </div>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Register">
+                </div>
+            }
+        </div>
+    </div>
+</body>
+</html>
