@@ -1,10 +1,12 @@
 using QuanLyBanHang.Models;
+using QuanLyBanHang.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<QuanLyBanHangDbContext>();
+builder.Services.AddScoped<ILoaiSpRepository, LoaiSpRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

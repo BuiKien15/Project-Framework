@@ -265,3 +265,7 @@ D:\Các học kì\HK1 năm 4\Xây dựng HTTT trên các framework\Project\QuanL
 D:\Các học kì\HK1 năm 4\Xây dựng HTTT trên các framework\Project\QuanLyBanHang\QuanLyBanHang\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Các học kì\HK1 năm 4\Xây dựng HTTT trên các framework\Project\QuanLyBanHang\QuanLyBanHang\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Các học kì\HK1 năm 4\Xây dựng HTTT trên các framework\Project\QuanLyBanHang\QuanLyBanHang\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Các học kì\HK1 năm 4\Xây dựng HTTT trên các framework\Project\QuanLyBanHang\QuanLyBanHang\bin\Debug\net6.0\JetBrains.Annotations.dll
+D:\Các học kì\HK1 năm 4\Xây dựng HTTT trên các framework\Project\QuanLyBanHang\QuanLyBanHang\bin\Debug\net6.0\X.PagedList.dll
+D:\Các học kì\HK1 năm 4\Xây dựng HTTT trên các framework\Project\QuanLyBanHang\QuanLyBanHang\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll
+D:\Các học kì\HK1 năm 4\Xây dựng HTTT trên các framework\Project\QuanLyBanHang\QuanLyBanHang\obj\Debug\net6.0\QuanLyBanHang.MvcApplicationPartsAssemblyInfo.cs

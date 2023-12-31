@@ -5,6 +5,374 @@
       "PackagePath": "staticwebassets\\QuanLyBanHang.bundle.scp.css"
     },
     {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Layout\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\css\\elegant-icons.css",
+      "PackagePath": "staticwebassets\\Layout\\css\\elegant-icons.css"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\Layout\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\css\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\Layout\\css\\jquery-ui.min.css"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\Layout\\css\\nice-select.css"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\Layout\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\css\\slicknav.min.css",
+      "PackagePath": "staticwebassets\\Layout\\css\\slicknav.min.css"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\css\\style.css",
+      "PackagePath": "staticwebassets\\Layout\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\fonts\\ElegantIcons.eot",
+      "PackagePath": "staticwebassets\\Layout\\fonts\\ElegantIcons.eot"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\fonts\\ElegantIcons.svg",
+      "PackagePath": "staticwebassets\\Layout\\fonts\\ElegantIcons.svg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\fonts\\ElegantIcons.ttf",
+      "PackagePath": "staticwebassets\\Layout\\fonts\\ElegantIcons.ttf"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\fonts\\ElegantIcons.woff",
+      "PackagePath": "staticwebassets\\Layout\\fonts\\ElegantIcons.woff"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\Layout\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\Layout\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\Layout\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\Layout\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\Layout\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\Layout\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\banner\\banner-1.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\banner\\banner-1.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\banner\\banner-2.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\banner\\banner-2.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\blog\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\blog\\blog-3.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\blog\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\blog\\blog-4.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\blog\\blog-5.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\blog\\blog-5.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\blog\\blog-6.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\blog\\blog-6.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\blog\\details\\details-author.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\blog\\details\\details-author.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\blog\\details\\details-hero.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\blog\\details\\details-hero.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\blog\\details\\details-pic.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\blog\\details\\details-pic.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\blog\\sidebar\\sr-1.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\blog\\sidebar\\sr-1.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\blog\\sidebar\\sr-2.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\blog\\sidebar\\sr-2.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\blog\\sidebar\\sr-3.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\blog\\sidebar\\sr-3.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\breadcrumb.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\breadcrumb.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\cart\\cart-1.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\cart\\cart-1.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\cart\\cart-2.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\cart\\cart-2.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\cart\\cart-3.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\cart\\cart-3.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\categories\\cat-1.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\categories\\cat-1.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\categories\\cat-2.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\categories\\cat-2.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\categories\\cat-3.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\categories\\cat-3.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\categories\\cat-4.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\categories\\cat-4.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\categories\\cat-5.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\categories\\cat-5.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\featured\\feature-1.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\featured\\feature-1.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\featured\\feature-2.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\featured\\feature-2.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\featured\\feature-3.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\featured\\feature-3.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\featured\\feature-4.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\featured\\feature-4.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\featured\\feature-5.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\featured\\feature-5.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\featured\\feature-6.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\featured\\feature-6.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\featured\\feature-7.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\featured\\feature-7.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\featured\\feature-8.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\featured\\feature-8.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\hero\\banner.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\hero\\banner.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\hero\\logoch.png",
+      "PackagePath": "staticwebassets\\Layout\\img\\hero\\logoch.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\language.png",
+      "PackagePath": "staticwebassets\\Layout\\img\\language.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\latest-product\\lp-1.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\latest-product\\lp-1.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\latest-product\\lp-2.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\latest-product\\lp-2.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\latest-product\\lp-3.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\latest-product\\lp-3.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\logo.png",
+      "PackagePath": "staticwebassets\\Layout\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\payment-item.png",
+      "PackagePath": "staticwebassets\\Layout\\img\\payment-item.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\product\\details\\product-details-1.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\product\\details\\product-details-1.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\product\\details\\product-details-2.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\product\\details\\product-details-2.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\product\\details\\product-details-3.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\product\\details\\product-details-3.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\product\\details\\product-details-4.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\product\\details\\product-details-4.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\product\\details\\product-details-5.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\product\\details\\product-details-5.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\product\\details\\thumb-1.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\product\\details\\thumb-1.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\product\\details\\thumb-2.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\product\\details\\thumb-2.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\product\\details\\thumb-3.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\product\\details\\thumb-3.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\product\\details\\thumb-4.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\product\\details\\thumb-4.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\product\\discount\\pd-1.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\product\\discount\\pd-1.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\product\\discount\\pd-2.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\product\\discount\\pd-2.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\product\\discount\\pd-3.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\product\\discount\\pd-3.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\product\\discount\\pd-4.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\product\\discount\\pd-4.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\product\\discount\\pd-5.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\product\\discount\\pd-5.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\product\\discount\\pd-6.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\product\\discount\\pd-6.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\product\\product-1.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\product\\product-1.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\product\\product-10.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\product\\product-10.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\product\\product-11.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\product\\product-11.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\product\\product-12.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\product\\product-12.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\product\\product-2.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\product\\product-2.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\product\\product-3.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\product\\product-3.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\product\\product-4.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\product\\product-4.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\product\\product-5.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\product\\product-5.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\product\\product-6.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\product\\product-6.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\product\\product-7.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\product\\product-7.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\product\\product-8.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\product\\product-8.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\product\\product-9.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\product\\product-9.jpg"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Layout\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\Layout\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\Layout\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\Layout\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\js\\jquery.slicknav.js",
+      "PackagePath": "staticwebassets\\Layout\\js\\jquery.slicknav.js"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\js\\main.js",
+      "PackagePath": "staticwebassets\\Layout\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\js\\mixitup.min.js",
+      "PackagePath": "staticwebassets\\Layout\\js\\mixitup.min.js"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\Layout\\js\\owl.carousel.min.js"
+    },
+    {
       "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\StaticAdmin\\assets\\css\\style.css",
       "PackagePath": "staticwebassets\\StaticAdmin\\assets\\css\\style.css"
     },
@@ -519,6 +887,330 @@
     {
       "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\ac_milan_bag.png",
+      "PackagePath": "staticwebassets\\images\\ac_milan_bag.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\adidas-ghosted.png",
+      "PackagePath": "staticwebassets\\images\\adidas-ghosted.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\adidas-predator.png",
+      "PackagePath": "staticwebassets\\images\\adidas-predator.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\alisson_becker.png",
+      "PackagePath": "staticwebassets\\images\\alisson_becker.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\arsenal_bag.png",
+      "PackagePath": "staticwebassets\\images\\arsenal_bag.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\as_roma_bag.png",
+      "PackagePath": "staticwebassets\\images\\as_roma_bag.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\badminton_racket_1.png",
+      "PackagePath": "staticwebassets\\images\\badminton_racket_1.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\badminton_racket_2.png",
+      "PackagePath": "staticwebassets\\images\\badminton_racket_2.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\badminton_racket_3.png",
+      "PackagePath": "staticwebassets\\images\\badminton_racket_3.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\badminton_racket_4.png",
+      "PackagePath": "staticwebassets\\images\\badminton_racket_4.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\badminton_racket_5.png",
+      "PackagePath": "staticwebassets\\images\\badminton_racket_5.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\badminton_racket_6.png",
+      "PackagePath": "staticwebassets\\images\\badminton_racket_6.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\badminton_racket_7.png",
+      "PackagePath": "staticwebassets\\images\\badminton_racket_7.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\badminton_racket_8.png",
+      "PackagePath": "staticwebassets\\images\\badminton_racket_8.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\ball_soccer_1.png",
+      "PackagePath": "staticwebassets\\images\\ball_soccer_1.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\ball_soccer_2.png",
+      "PackagePath": "staticwebassets\\images\\ball_soccer_2.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\ball_soccer_3.png",
+      "PackagePath": "staticwebassets\\images\\ball_soccer_3.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\ball_soccer_4.png",
+      "PackagePath": "staticwebassets\\images\\ball_soccer_4.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\ball_soccer_5.png",
+      "PackagePath": "staticwebassets\\images\\ball_soccer_5.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\ball_soccer_6.png",
+      "PackagePath": "staticwebassets\\images\\ball_soccer_6.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\ball_soccer_7.png",
+      "PackagePath": "staticwebassets\\images\\ball_soccer_7.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\ball_soccer_8.png",
+      "PackagePath": "staticwebassets\\images\\ball_soccer_8.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\barcelona.png",
+      "PackagePath": "staticwebassets\\images\\barcelona.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\bayern_munich.png",
+      "PackagePath": "staticwebassets\\images\\bayern_munich.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\boc_ong_dong_1.png",
+      "PackagePath": "staticwebassets\\images\\boc_ong_dong_1.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\boc_ong_dong_1_1_8.png",
+      "PackagePath": "staticwebassets\\images\\boc_ong_dong_1_1_8.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\boc_ong_dong_1_2.png",
+      "PackagePath": "staticwebassets\\images\\boc_ong_dong_1_2.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\boc_ong_dong_1_4.png",
+      "PackagePath": "staticwebassets\\images\\boc_ong_dong_1_4.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\boc_ong_dong_3_4.png",
+      "PackagePath": "staticwebassets\\images\\boc_ong_dong_3_4.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\boc_ong_dong_3_8.png",
+      "PackagePath": "staticwebassets\\images\\boc_ong_dong_3_8.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\boc_ong_dong_5_8.png",
+      "PackagePath": "staticwebassets\\images\\boc_ong_dong_5_8.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\boc_ong_dong_7_8.png",
+      "PackagePath": "staticwebassets\\images\\boc_ong_dong_7_8.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\borussia_dortmund_bag.png",
+      "PackagePath": "staticwebassets\\images\\borussia_dortmund_bag.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\chelsea_bag.png",
+      "PackagePath": "staticwebassets\\images\\chelsea_bag.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\cristiano_ronaldo_poster.png",
+      "PackagePath": "staticwebassets\\images\\cristiano_ronaldo_poster.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\cup_copa_america.png",
+      "PackagePath": "staticwebassets\\images\\cup_copa_america.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\cup_european_championship.png",
+      "PackagePath": "staticwebassets\\images\\cup_european_championship.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\cup_fifa_club_world_cup.png",
+      "PackagePath": "staticwebassets\\images\\cup_fifa_club_world_cup.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\cup_fifa_world_cup.png",
+      "PackagePath": "staticwebassets\\images\\cup_fifa_world_cup.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\cup_ofc_nations_cup.png",
+      "PackagePath": "staticwebassets\\images\\cup_ofc_nations_cup.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\cup_premier_league.png",
+      "PackagePath": "staticwebassets\\images\\cup_premier_league.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\cup_super_cup.png",
+      "PackagePath": "staticwebassets\\images\\cup_super_cup.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\cup_uefa_champions_league.png",
+      "PackagePath": "staticwebassets\\images\\cup_uefa_champions_league.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\ederson.png",
+      "PackagePath": "staticwebassets\\images\\ederson.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\gianluigi_donnarumma.png",
+      "PackagePath": "staticwebassets\\images\\gianluigi_donnarumma.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\inter_milan_bag.png",
+      "PackagePath": "staticwebassets\\images\\inter_milan_bag.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\jan_oblak.png",
+      "PackagePath": "staticwebassets\\images\\jan_oblak.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\juventus.png",
+      "PackagePath": "staticwebassets\\images\\juventus.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\kevin_de_bruyne_poster.png",
+      "PackagePath": "staticwebassets\\images\\kevin_de_bruyne_poster.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\keylor_navas.png",
+      "PackagePath": "staticwebassets\\images\\keylor_navas.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\kylian_mbappe_poster.png",
+      "PackagePath": "staticwebassets\\images\\kylian_mbappe_poster.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\lionel_messi_poster.png",
+      "PackagePath": "staticwebassets\\images\\lionel_messi_poster.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\liverpool.png",
+      "PackagePath": "staticwebassets\\images\\liverpool.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\manchester_city.png",
+      "PackagePath": "staticwebassets\\images\\manchester_city.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\manchester_united.png",
+      "PackagePath": "staticwebassets\\images\\manchester_united.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\manuel_neuer.png",
+      "PackagePath": "staticwebassets\\images\\manuel_neuer.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\marc_andre_ter_stegen.png",
+      "PackagePath": "staticwebassets\\images\\marc_andre_ter_stegen.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\mizuno-morelia.png",
+      "PackagePath": "staticwebassets\\images\\mizuno-morelia.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\mohamed_salah_poster.png",
+      "PackagePath": "staticwebassets\\images\\mohamed_salah_poster.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\new-balance-furon.png",
+      "PackagePath": "staticwebassets\\images\\new-balance-furon.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\neymar_jr_poster.png",
+      "PackagePath": "staticwebassets\\images\\neymar_jr_poster.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\nike-mercurial.png",
+      "PackagePath": "staticwebassets\\images\\nike-mercurial.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\psg.png",
+      "PackagePath": "staticwebassets\\images\\psg.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\psg_bag.png",
+      "PackagePath": "staticwebassets\\images\\psg_bag.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\puma-future.png",
+      "PackagePath": "staticwebassets\\images\\puma-future.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\puma-one.png",
+      "PackagePath": "staticwebassets\\images\\puma-one.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\real_madrid.png",
+      "PackagePath": "staticwebassets\\images\\real_madrid.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\robert_lewandowski_poster.png",
+      "PackagePath": "staticwebassets\\images\\robert_lewandowski_poster.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\rodri_poster.png",
+      "PackagePath": "staticwebassets\\images\\rodri_poster.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\tat_chan_ngan_nike.png",
+      "PackagePath": "staticwebassets\\images\\tat_chan_ngan_nike.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\tat_chay_asics.png",
+      "PackagePath": "staticwebassets\\images\\tat_chay_asics.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\tat_chong_truot_new_balance.png",
+      "PackagePath": "staticwebassets\\images\\tat_chong_truot_new_balance.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\tat_da_bong_puma.png",
+      "PackagePath": "staticwebassets\\images\\tat_da_bong_puma.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\tat_tap_gym_reebok.png",
+      "PackagePath": "staticwebassets\\images\\tat_tap_gym_reebok.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\tat_the_thao_adidas.png",
+      "PackagePath": "staticwebassets\\images\\tat_the_thao_adidas.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\tat_the_thao_diadora.png",
+      "PackagePath": "staticwebassets\\images\\tat_the_thao_diadora.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\tat_the_thao_under_armour.png",
+      "PackagePath": "staticwebassets\\images\\tat_the_thao_under_armour.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\thibaut_courtois.png",
+      "PackagePath": "staticwebassets\\images\\thibaut_courtois.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\tottenham_hotspur_bag.png",
+      "PackagePath": "staticwebassets\\images\\tottenham_hotspur_bag.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\under-armour-magnetico.png",
+      "PackagePath": "staticwebassets\\images\\under-armour-magnetico.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
     },
     {
       "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\js\\site.js",
