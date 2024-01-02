@@ -32,8 +32,6 @@ namespace QuanLyBanHang.Controllers
                 userId = userIdClaim.Value;
             }
 
-            ViewBag.CustomerId = userId;
-
             return View(ds);
         }
 

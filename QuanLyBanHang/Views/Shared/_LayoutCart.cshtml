@@ -22,6 +22,12 @@
     <link rel="stylesheet" href="~/Layout/css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="~/Layout/css/style.css" type="text/css">
 
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/dataTables.bootstrap5.min.css" />
+    <script defer src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script defer src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+    <script defer src="https://cdn.datatables.net/1.13.7/js/dataTables.bootstrap5.min.js"></script>
+    <script defer src="~/js/script.js"></script>
+
 </head>
 
 <body>
@@ -104,28 +110,40 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="header__top__right">
-                            @if (!(User.Identity.IsAuthenticated))
+                            @if (User.Identity.IsAuthenticated && User.IsInRole("1"))
                             {
                                 <div class="header__top__right__auth ml-2 mr-2">
-                                    <a asp-action="Login" asp-controller="Users"><i class="fa fa-user"></i> Login</a>
+                                    <a asp-controller="Carts" asp-action="Index"><i class="fa fa-shopping-bag"></i>Giỏ hàng</a>
                                 </div>
                             }
                             @if (!(User.Identity.IsAuthenticated))
                             {
                                 <div class="header__top__right__auth ml-2 mr-2">
-                                    <a asp-action="Create" asp-controller="Users"><i class="fa fa-user"></i> Register</a>
+                                    <a asp-action="Login" asp-controller="Users"><i class="fa fa-user"></i>Đăng nhập</a>
+                                </div>
+                            }
+                            @if (!(User.Identity.IsAuthenticated))
+                            {
+                                <div class="header__top__right__auth ml-2 mr-2">
+                                    <a asp-action="Create" asp-controller="Users"><i class="fa fa-user"></i>Đăng ký</a>
+                                </div>
+                            }
+                            @if (User.Identity.IsAuthenticated && User.IsInRole("1"))
+                            {
+                                <div class="header__top__right__auth ml-2 mr-2">
+                                    <a asp-action="Index" asp-controller="Orders"><i class="fa fa-user"></i>Lịch sử mua hàng</a>
                                 </div>
                             }
                             @if (User.Identity.IsAuthenticated)
                             {
                                 <div class="header__top__right__auth ml-2 mr-2">
-                                    <a asp-action="LogOut" asp-controller="Users"><i class="fa fa-user"></i> LogOut</a>
+                                    <a asp-action="LogOut" asp-controller="Users"><i class="fa fa-user"></i>Đăng xuất</a>
                                 </div>
                             }
                             @if (User.Identity.IsAuthenticated && User.IsInRole("0"))
                             {
                                 <div class="header__top__right__auth ml-2 mr-2">
-                                    <a asp-area="Admin" asp-action="Home" asp-controller="Index"><i class="fa fa-user"></i> Dashboard</a>
+                                    <a asp-area="Admin" asp-action="Index" asp-controller="HomeAdmin"><i class="fa fa-user"></i>Quản lý</a>
                                 </div>
                             }
                         </div>
@@ -226,7 +244,7 @@
 
     <!-- Shoping Cart Section Begin -->
     <section class="shoping-cart spad">
-        <div class="container">
+        <div class="content-wrapper">
             @RenderBody()
         </div>
     </section>

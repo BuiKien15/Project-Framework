@@ -83,6 +83,70 @@ namespace QuanLyBanHang.Controllers
             return RedirectToAction("Index", "Carts");
         }
 
+        // GET: CheckOut
+        public async Task<IActionResult> CheckOut()
+        {
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+            var userId = "";
+
+            if (userIdClaim != null)
+            {
+                userId = userIdClaim.Value;
+            }
+
+            var quanLyBanHangDbContext = _context.Carts.Where(c => c.UserId == int.Parse(userId)).Include(c => c.Product).Include(c => c.User);
+
+            return View(await quanLyBanHangDbContext.ToListAsync());
+        }
+        [HttpPost]
+        public async Task<IActionResult> CheckOut(string shippingAddress ,string paymentMethod)
+        {
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+            var userId = "";
+
+            if (userIdClaim != null)
+            {
+                userId = userIdClaim.Value;
+            }
+
+            var listCartItem = _context.Carts.Where(c => c.UserId == int.Parse(userId)).Include(c => c.Product);
+
+            // Step 1: Create a new order and order items
+            var order = new Order
+            {
+                UserId = int.Parse(userId),
+                OrderDate = DateTime.Now,
+                ShippingAddress = shippingAddress,
+                PaymentMethod = paymentMethod,        
+            };
+
+            foreach (var cartItem in listCartItem)
+            {
+                var orderItem = new OrderItem
+                {
+                    ProductId = cartItem.ProductId,
+                    Quantity = (int)cartItem.Quantity,
+                    SellingPrice = (decimal)cartItem.SellingPrice,
+                    TotalPrice = cartItem.TotalPrice,
+                };
+
+                order.OrderItems.Add(orderItem);
+            }
+
+            // Step 2: Update the total amount of the order
+            order.TotalAmount = (decimal)order.OrderItems.Sum(oi => oi.TotalPrice);
+
+            // Step 3: Save the order to the database
+            _context.Orders.Add(order);
+            await _context.SaveChangesAsync();
+
+            // Step 4: Clear the cart after successful checkout
+            _context.Carts.RemoveRange(_context.Carts.Where(c => c.UserId == int.Parse(userId)));
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction("Index", "Home"); // Redirect to the order history or confirmation page
+        }
+
         // GET: Carts/Details/5
         public async Task<IActionResult> Details(int? id)
         {

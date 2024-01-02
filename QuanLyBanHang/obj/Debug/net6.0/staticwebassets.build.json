@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dGBlHQrzoipIJzPVaQKhAZZ5l+gGUVC1QDHO+xghg4k=",
+  "Hash": "08di70aWg6+oOQjc2zoFWshLFFs6/JnXxNqJM714dqY=",
   "Source": "QuanLyBanHang",
   "BasePath": "_content/QuanLyBanHang",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\4290ef0e-a0d9-41e8-9838-e30bc8bb04c5_nike-mercurial.png",
+      "SourceId": "QuanLyBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\",
+      "BasePath": "_content/QuanLyBanHang",
+      "RelativePath": "images/4290ef0e-a0d9-41e8-9838-e30bc8bb04c5_nike-mercurial.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\4290ef0e-a0d9-41e8-9838-e30bc8bb04c5_nike-mercurial.png"
     },
     {
       "Identity": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\images\\ac_milan_bag.png",

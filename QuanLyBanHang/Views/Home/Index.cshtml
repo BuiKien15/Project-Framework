@@ -22,14 +22,6 @@
             <div class="featured__item__text">
                 <h6><a href="@Url.Action("ChiTietSanPham", new { id = item.ProductId })">@item.ProductName</a></h6>
                 <h5>@item.SellingPrice</h5>
-                @if (ViewBag.CustomerId != null)
-                {
-                    <text>@ViewBag.CustomerId</text>
-                }
-                else
-                {
-                    <text>No message available</text>
-                }
             </div>
         </div>
     </div>
