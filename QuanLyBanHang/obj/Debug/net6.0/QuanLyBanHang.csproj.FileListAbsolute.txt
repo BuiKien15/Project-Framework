@@ -269,3 +269,11 @@ D:\Các học kì\HK1 năm 4\Xây dựng HTTT trên các framework\Project\QuanL
 D:\Các học kì\HK1 năm 4\Xây dựng HTTT trên các framework\Project\QuanLyBanHang\QuanLyBanHang\bin\Debug\net6.0\X.PagedList.dll
 D:\Các học kì\HK1 năm 4\Xây dựng HTTT trên các framework\Project\QuanLyBanHang\QuanLyBanHang\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll
 D:\Các học kì\HK1 năm 4\Xây dựng HTTT trên các framework\Project\QuanLyBanHang\QuanLyBanHang\obj\Debug\net6.0\QuanLyBanHang.MvcApplicationPartsAssemblyInfo.cs
+D:\Các học kì\HK1 năm 4\Xây dựng HTTT trên các framework\Project\QuanLyBanHang\QuanLyBanHang\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Các học kì\HK1 năm 4\Xây dựng HTTT trên các framework\Project\QuanLyBanHang\QuanLyBanHang\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Các học kì\HK1 năm 4\Xây dựng HTTT trên các framework\Project\QuanLyBanHang\QuanLyBanHang\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Các học kì\HK1 năm 4\Xây dựng HTTT trên các framework\Project\QuanLyBanHang\QuanLyBanHang\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Các học kì\HK1 năm 4\Xây dựng HTTT trên các framework\Project\QuanLyBanHang\QuanLyBanHang\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\Các học kì\HK1 năm 4\Xây dựng HTTT trên các framework\Project\QuanLyBanHang\QuanLyBanHang\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Các học kì\HK1 năm 4\Xây dựng HTTT trên các framework\Project\QuanLyBanHang\QuanLyBanHang\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Các học kì\HK1 năm 4\Xây dựng HTTT trên các framework\Project\QuanLyBanHang\QuanLyBanHang\obj\Debug\net6.0\scopedcss\Views\Shared\_LayoutCart.cshtml.rz.scp.css

@@ -77,6 +77,10 @@
       "PackagePath": "staticwebassets\\Layout\\fonts\\fontawesome-webfont.woff2"
     },
     {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\bannerCart.jpg",
+      "PackagePath": "staticwebassets\\Layout\\img\\bannerCart.jpg"
+    },
+    {
       "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\banner\\banner-1.jpg",
       "PackagePath": "staticwebassets\\Layout\\img\\banner\\banner-1.jpg"
     },
@@ -227,6 +231,10 @@
     {
       "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\logo.png",
       "PackagePath": "staticwebassets\\Layout\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\logoOrigin.png",
+      "PackagePath": "staticwebassets\\Layout\\img\\logoOrigin.png"
     },
     {
       "Id": "D:\\Các học kì\\HK1 năm 4\\Xây dựng HTTT trên các framework\\Project\\QuanLyBanHang\\QuanLyBanHang\\wwwroot\\Layout\\img\\payment-item.png",

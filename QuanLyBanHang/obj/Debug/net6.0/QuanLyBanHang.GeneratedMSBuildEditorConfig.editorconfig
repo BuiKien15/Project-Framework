@@ -180,6 +180,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Các học kì/HK1 năm 4/Xây dựng HTTT trên các framework/Project/QuanLyBanHang/QuanLyBanHang/Views/Carts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Các học kì/HK1 năm 4/Xây dựng HTTT trên các framework/Project/QuanLyBanHang/QuanLyBanHang/Views/Carts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Các học kì/HK1 năm 4/Xây dựng HTTT trên các framework/Project/QuanLyBanHang/QuanLyBanHang/Views/Carts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Các học kì/HK1 năm 4/Xây dựng HTTT trên các framework/Project/QuanLyBanHang/QuanLyBanHang/Views/Carts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Các học kì/HK1 năm 4/Xây dựng HTTT trên các framework/Project/QuanLyBanHang/QuanLyBanHang/Views/Carts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Các học kì/HK1 năm 4/Xây dựng HTTT trên các framework/Project/QuanLyBanHang/QuanLyBanHang/Views/Home/ChiTietSanPham.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGlUaWV0U2FuUGhhbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -212,6 +232,30 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Các học kì/HK1 năm 4/Xây dựng HTTT trên các framework/Project/QuanLyBanHang/QuanLyBanHang/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Các học kì/HK1 năm 4/Xây dựng HTTT trên các framework/Project/QuanLyBanHang/QuanLyBanHang/Views/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Các học kì/HK1 năm 4/Xây dựng HTTT trên các framework/Project/QuanLyBanHang/QuanLyBanHang/Views/Users/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Các học kì/HK1 năm 4/Xây dựng HTTT trên các framework/Project/QuanLyBanHang/QuanLyBanHang/Views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Các học kì/HK1 năm 4/Xây dựng HTTT trên các framework/Project/QuanLyBanHang/QuanLyBanHang/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Các học kì/HK1 năm 4/Xây dựng HTTT trên các framework/Project/QuanLyBanHang/QuanLyBanHang/Views/Users/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Các học kì/HK1 năm 4/Xây dựng HTTT trên các framework/Project/QuanLyBanHang/QuanLyBanHang/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -223,3 +267,7 @@ build_metadata.AdditionalFiles.CssScope =
 [D:/Các học kì/HK1 năm 4/Xây dựng HTTT trên các framework/Project/QuanLyBanHang/QuanLyBanHang/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-scwn701n3m
+
+[D:/Các học kì/HK1 năm 4/Xây dựng HTTT trên các framework/Project/QuanLyBanHang/QuanLyBanHang/Views/Shared/_LayoutCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRDYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-ga8yrrj9ha

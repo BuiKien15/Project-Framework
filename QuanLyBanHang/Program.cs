@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using QuanLyBanHang.Models;
 using QuanLyBanHang.Repository;
 
@@ -7,6 +8,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<QuanLyBanHangDbContext>();
 builder.Services.AddScoped<ILoaiSpRepository, LoaiSpRepository>();
+
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie();
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -21,6 +27,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

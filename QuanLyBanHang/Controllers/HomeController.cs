@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using QuanLyBanHang.Models;
 using System.Diagnostics;
+using System.Security.Claims;
 using X.PagedList;
 
 namespace QuanLyBanHang.Controllers
@@ -23,6 +24,16 @@ namespace QuanLyBanHang.Controllers
             int pageNumber = page == null || page < 0 ? 1 : page.Value;
             var dssanpham = db.Products.AsNoTracking().OrderBy(x => x.ProductId);
             PagedList<Product> ds = new PagedList<Product>(dssanpham, pageNumber, pageSize);
+
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+            var userId = "";
+            if (userIdClaim != null)
+            {
+                userId = userIdClaim.Value;
+            }
+
+            ViewBag.CustomerId = userId;
+
             return View(ds);
         }
 
@@ -35,9 +46,14 @@ namespace QuanLyBanHang.Controllers
             return View(ds);
         }
 
-        public IActionResult ChiTietSanPham(int product_id)
+        public async Task<IActionResult> ChiTietSanPham(int? id)
         {
-            var sanPham = db.Products.SingleOrDefault(x => x.ProductId == product_id);
+            var sanPham = db.Products.SingleOrDefault(x => x.ProductId == id);
+
+            var inventory = db.Inventories.SingleOrDefault(x => x.ProductId == id);
+
+            ViewBag.Quantity = inventory.Quantity;
+
             return View(sanPham);
         }
 

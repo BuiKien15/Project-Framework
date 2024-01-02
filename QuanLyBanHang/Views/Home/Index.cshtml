@@ -12,14 +12,24 @@
             <div class="featured__item__pic set-bg" data-setbg="@Url.Content("../images/"+item.ImageUrl)" style="background-image: url(&quot;img/featured/feature-1.jpg&quot;);">
                 <ul class="featured__item__pic__hover">
                     <li><a><i class="fa fa-heart"></i></a></li>
-                    <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                    <li><a asp-action="ChiTietSanPham" asp-controller="Home" asp-route-id="@item.ProductId"><i class="fa fa-retweet"></i></a></li>
+                    @if (User.Identity.IsAuthenticated && User.IsInRole("1"))
+                    {
+                        <li><a asp-action="AddToCart" asp-controller="Carts" asp-route-productId="@item.ProductId"><i class="fa fa-shopping-cart"></i></a></li>
+                    }
                 </ul>
             </div>
             <div class="featured__item__text">
-                <h6><a href="#">@item.ProductName</a></h6>
+                <h6><a href="@Url.Action("ChiTietSanPham", new { id = item.ProductId })">@item.ProductName</a></h6>
                 <h5>@item.SellingPrice</h5>
-                <a asp-action="ChiTietSanPham" asp-route-id="{@item.ProductId}">Details</a>
+                @if (ViewBag.CustomerId != null)
+                {
+                    <text>@ViewBag.CustomerId</text>
+                }
+                else
+                {
+                    <text>No message available</text>
+                }
             </div>
         </div>
     </div>
