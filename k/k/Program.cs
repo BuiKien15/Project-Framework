@@ -10,8 +10,14 @@ var connectionString = builder.Configuration.GetConnectionString("QuanLyBanHangC
 builder.Services.AddDbContext<QuanLyBanHangContext>(x=>x.UseSqlServer(connectionString));
 builder.Services.AddScoped<ILoaiSpRepository, LoaiSpRepository>();
 
-
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(90);
+    options.Cookie.IsEssential = true;
+});
 var app = builder.Build();
+app.UseSession();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

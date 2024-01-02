@@ -16,7 +16,6 @@ namespace k.Controllers
         {
             _logger = logger;
         }
-
         public IActionResult Index(int? page)
         {
             int pageSize = 8;
@@ -35,9 +34,9 @@ namespace k.Controllers
             PagedList<Product> ds = new PagedList<Product>(dssanpham, pageNumber, pageSize);
             return View(ds);
         }
-        public IActionResult ChiTietSanPham(int product_id)
+        public async Task<IActionResult> ChiTietSanPham(int? id)
         {
-            var sanPham = db.Products.SingleOrDefault(x => x.ProductId == product_id);
+            var sanPham = db.Products.SingleOrDefault(x => x.ProductId == id);
             return View(sanPham);
         }
 
