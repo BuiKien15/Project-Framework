@@ -30,10 +30,12 @@ namespace QuanLyBanHang.Controllers
                 userId = userIdClaim.Value;
             }
 
+            ViewBag.SuccessMessage = TempData["SuccessMessage"] as string;
+
             var quanLyBanHangDbContext = _context.Carts.Where(c => c.UserId == int.Parse(userId)).Include(c => c.Product);
 
             return View(await quanLyBanHangDbContext.ToListAsync());
-        }
+        }   
 
         public IActionResult AddToCart(int productId)
         {
@@ -80,7 +82,44 @@ namespace QuanLyBanHang.Controllers
 
             _context.SaveChanges();
 
+            TempData["SuccessMessage"] = "Thêm sản phẩm vào giỏ hàng thành công.";
+
             return RedirectToAction("Index", "Carts");
+        }
+
+        [HttpPost]
+        public JsonResult UpdateQuantity(int cartId, int quantityChange)
+        {
+            var cartItem = _context.Carts.Find(cartId);
+
+            if (cartItem != null)
+            {
+                // Update quantity
+                cartItem.Quantity += quantityChange;
+
+                // Ensure quantity is at least 1
+                if (cartItem.Quantity < 1)
+                {
+                    cartItem.Quantity = 1;
+                }
+
+                cartItem.TotalPrice = cartItem.SellingPrice * cartItem.Quantity;
+
+                // Save changes
+                _context.SaveChanges();
+
+                var Quantity = cartItem.Quantity;
+                var TotalPrice = cartItem.Quantity * cartItem.SellingPrice;
+
+                // Return updated data
+                return Json(new
+                {
+                    Quantity,
+                    TotalPrice
+                });
+            }
+
+            return Json(new { Error = "CartItem not found" });
         }
 
         // GET: CheckOut
@@ -256,16 +295,21 @@ namespace QuanLyBanHang.Controllers
                 return NotFound();
             }
 
-            var cart = await _context.Carts
-                .Include(c => c.Product)
-                .Include(c => c.User)
-                .FirstOrDefaultAsync(m => m.CartId == id);
+            var cart = await _context.Carts.FindAsync(id);
+
             if (cart == null)
             {
                 return NotFound();
             }
 
-            return View(cart);
+            if (cart != null)
+            {
+                _context.Carts.Remove(cart);
+            }
+
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
         }
 
         // POST: Carts/Delete/5

@@ -35,7 +35,9 @@
         <!-- partial:../../partials/_navbar.html -->
         <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
             <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-                <a class="navbar-brand brand-logo"><img src="~/StaticAdmin/assets/images/logo.svg" alt="logo" /></a>
+                <a class="navbar-brand brand-logo" asp-controller="Home" asp-action="Index">
+                    FLEEBOUNCE
+                </a>
                 <a class="navbar-brand brand-logo-mini"><img src="~/StaticAdmin/assets/images/logo-mini.svg" alt="logo" /></a>
             </div>
             <div class="navbar-menu-wrapper d-flex align-items-stretch">
@@ -43,7 +45,8 @@
                     <span class="mdi mdi-menu"></span>
                 </button>
                 <ul class="navbar-nav navbar-nav-right">
-                    <li class="nav-item nav-profile dropdown">
+                    
+@*                    <li class="nav-item nav-profile dropdown">
                         <a class="nav-link dropdown-toggle" id="profileDropdown" data-bs-toggle="dropdown" aria-expanded="false">
                             <div class="nav-profile-img">
                                 <img src="~/StaticAdmin/assets/images/faces/face1.jpg" alt="image">
@@ -62,7 +65,14 @@
                                 <i class="mdi mdi-logout me-2 text-primary"></i> Signout
                             </a>
                         </div>
+                    </li>*@
+
+                    <li class="nav-item d-none d-lg-block full-screen-link">
+                        <a class="nav-link" asp-action="Index" asp-controller="Home">
+                            <i class="mdi mdi-backburger"></i>
+                        </a>
                     </li>
+
                     <li class="nav-item d-none d-lg-block full-screen-link">
                         <a class="nav-link">
                             <i class="mdi mdi-fullscreen" id="fullscreen-button"></i>
@@ -243,6 +253,12 @@
                         <a asp-area="Admin" asp-controller="Purchases" asp-action="Index" class="nav-link">
                             <span class="menu-title">Purchases</span>
                             <i class="mdi mdi mdi-clipboard-arrow-down menu-icon"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a asp-area="" asp-controller="Users" asp-action="LogOut" class="nav-link">
+                            <span class="menu-title">Signout</span>
+                            <i class="mdi mdi-logout menu-icon"></i>
                         </a>
                     </li>
                 </ul>

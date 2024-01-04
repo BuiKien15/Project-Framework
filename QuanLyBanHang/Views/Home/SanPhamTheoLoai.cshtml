@@ -7,30 +7,52 @@
 @using X.PagedList.Mvc.Core;
 @model X.PagedList.IPagedList<Product>
 
-@* @model List<Product> *@
-@foreach (var item in Model)
-{
-    <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
-        <div class="featured__item">
-            <div class="featured__item__pic set-bg" data-setbg="@Url.Content("../images/"+item.ImageUrl)" style="background-image: url(&quot;img/featured/feature-1.jpg&quot;);">
-                <ul class="featured__item__pic__hover">
-                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                    <li><a asp-action="ChiTietSanPham" asp-controller="Home" asp-route-id="@item.ProductId"><i class="fa fa-retweet"></i></a></li>
-                    @if (User.Identity.IsAuthenticated && User.IsInRole("1"))
-                    {
-                        <li><a type="button" asp-action="AddToCart" asp-controller="Carts" asp-route-productId="@item.ProductId"><i class="fa fa-shopping-cart"></i></a></li>
-                    }
-                </ul>
-            </div>
-            <div class="featured__item__text">
-                <h6><a href="#">@item.ProductName</a></h6>
-                <h5>@item.SellingPrice</h5>
-            </div>
+<div class="row">
+    <div class="col-lg-12">
+        <div class="section-title">
+            <h2>@ViewBag.CategoryName</h2>
         </div>
     </div>
-}
-<div class="product__pagination">
-    @Html.PagedListPager(Model,page=>Url.Action("Index",new{page=page}))
 </div>
+<div class="row featured__filter">
+    @foreach (var item in Model)
+    {
+        <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
+            <div class="featured__item">
+                <div class="featured__item__pic set-bg" data-setbg="@Url.Content("../images/"+item.ImageUrl)" style="background-image: url(&quot;img/featured/feature-1.jpg&quot;);">
+                    <ul class="featured__item__pic__hover">
+                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                        <li><a asp-action="ChiTietSanPham" asp-controller="Home" asp-route-id="@item.ProductId"><i class="fa fa-retweet"></i></a></li>
+                        @if (User.Identity.IsAuthenticated && User.IsInRole("1"))
+                        {
+                            <li><a asp-action="AddToCart" asp-controller="Carts" asp-route-productId="@item.ProductId"><i class="fa fa-shopping-cart"></i></a></li>
+                        }
+                    </ul>
+                </div>
+                <div class="featured__item__text">
+                    @if (item.Inventory.Quantity == 0)
+                    {
+                        <p style="color: red;">Hết hàng!</p>
+                    }
+                    else if (item.Inventory.Quantity != 0)
+                    {
+                        <p style="color: lightseagreen;">Còn hàng!</p>
+                    }
+                    <h6><a href="#">@item.ProductName</a></h6>
+                    <h5>@item.SellingPrice</h5>
+                </div>
+            </div>
+        </div>
+    }
+
+    <div>
+        @Html.PagedListPager(Model ,page => Url.Action("Index", new{ page = page }),
+        new X.PagedList.Web.Common.PagedListRenderOptions {
+        LiElementClasses = new string[] {"page-item"},
+        PageClasses = new string[] {"page-link"}
+        })
+    </div>
+</div>
+
 
 

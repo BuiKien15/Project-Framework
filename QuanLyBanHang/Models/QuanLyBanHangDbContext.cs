@@ -136,7 +136,10 @@ public partial class QuanLyBanHangDbContext : DbContext
         {
             entity.HasKey(e => e.OrderItemId).HasName("PK__OrderIte__57ED0681279F2595");
 
-            entity.ToTable("OrderItem");
+            entity.ToTable("OrderItem", tb =>
+            {
+                tb.HasTrigger("trg_OrderItem_UpdateInventory");
+            });
 
             entity.Property(e => e.SellingPrice).HasColumnType("decimal(10, 2)");
             entity.Property(e => e.TotalPrice).HasColumnType("decimal(10, 2)");

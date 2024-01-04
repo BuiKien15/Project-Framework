@@ -11614,11 +11614,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Sơn\\Project-Framework\\QuanLyBanHang\\QuanLyBanHang.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Project-Framework\\QuanLyBanHang\\QuanLyBanHang.csproj",
       "projectName": "QuanLyBanHang",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\Sơn\\Project-Framework\\QuanLyBanHang\\QuanLyBanHang.csproj",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\Project-Framework\\QuanLyBanHang\\QuanLyBanHang.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\Sơn\\Project-Framework\\QuanLyBanHang\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\Project-Framework\\QuanLyBanHang\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

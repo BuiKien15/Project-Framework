@@ -22,15 +22,8 @@ namespace QuanLyBanHang.Controllers
         {
             int pageSize = 8;
             int pageNumber = page == null || page < 0 ? 1 : page.Value;
-            var dssanpham = db.Products.AsNoTracking().OrderBy(x => x.ProductId);
+            var dssanpham = db.Products.AsNoTracking().OrderBy(x => x.ProductId).Include(x => x.Inventory);
             PagedList<Product> ds = new PagedList<Product>(dssanpham, pageNumber, pageSize);
-
-            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
-            var userId = "";
-            if (userIdClaim != null)
-            {
-                userId = userIdClaim.Value;
-            }
 
             return View(ds);
         }
@@ -39,8 +32,12 @@ namespace QuanLyBanHang.Controllers
         {
             int pageSize = 8;
             int pageNumber = page == null || page < 0 ? 1 : page.Value;
-            var dssanpham = db.Products.AsNoTracking().Where(x => x.CategoryId == category_id).OrderBy(x => x.ProductId);
+            var dssanpham = db.Products.AsNoTracking().Where(x => x.CategoryId == category_id).OrderBy(x => x.ProductId).Include(x => x.Inventory);
             PagedList<Product> ds = new PagedList<Product>(dssanpham, pageNumber, pageSize);
+
+            var category = db.Categories.SingleOrDefault(c => c.CategoryId == category_id);
+            ViewBag.CategoryName = category.CategoryName;
+
             return View(ds);
         }
 

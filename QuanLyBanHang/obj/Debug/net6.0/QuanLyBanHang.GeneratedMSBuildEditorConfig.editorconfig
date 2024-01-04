@@ -9,289 +9,289 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = QuanLyBanHang
 build_property.RootNamespace = QuanLyBanHang
-build_property.ProjectDir = C:\Users\Admin\Desktop\Sơn\Project-Framework\QuanLyBanHang\
+build_property.ProjectDir = C:\Users\Admin\Desktop\Project-Framework\QuanLyBanHang\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Admin\Desktop\Sơn\Project-Framework\QuanLyBanHang
+build_property.MSBuildProjectDirectory = C:\Users\Admin\Desktop\Project-Framework\QuanLyBanHang
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Categories/Create.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Categories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Categories/Delete.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Categories/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Categories/Details.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Categories/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Categories/Edit.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Categories/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Categories/Index.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Categories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/HomeAdmin/Index.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/HomeAdmin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Inventories/Create.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Inventories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSW52ZW50b3JpZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Inventories/Delete.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Inventories/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSW52ZW50b3JpZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Inventories/Details.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Inventories/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSW52ZW50b3JpZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Inventories/Edit.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Inventories/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSW52ZW50b3JpZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Inventories/Index.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Inventories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSW52ZW50b3JpZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Orders/Create.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Orders/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Orders/Delete.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Orders/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Orders/Details.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Orders/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Orders/Edit.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Orders/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Orders/Index.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Orders/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Products/Create.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Products/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Products/Delete.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Products/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Products/Details.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Products/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Products/Edit.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Products/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Products/Index.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Purchases/Create.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Purchases/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHVyY2hhc2VzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Purchases/Delete.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Purchases/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHVyY2hhc2VzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Purchases/Details.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Purchases/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHVyY2hhc2VzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Purchases/Edit.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Purchases/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHVyY2hhc2VzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Purchases/Index.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Purchases/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHVyY2hhc2VzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Shared/Error.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Suppliers/Create.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Suppliers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3VwcGxpZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Suppliers/Delete.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Suppliers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3VwcGxpZXJzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Suppliers/Details.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Suppliers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3VwcGxpZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Suppliers/Edit.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Suppliers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3VwcGxpZXJzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Suppliers/Index.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Suppliers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3VwcGxpZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Users/Create.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Users/Delete.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Users/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Users/Details.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Users/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Users/Edit.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Users/Index.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/_ViewImports.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Areas/Admin/Views/_ViewStart.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Views/Carts/CheckOut.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Views/Carts/CheckOut.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcQ2hlY2tPdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Views/Carts/Create.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Views/Carts/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Views/Carts/Delete.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Views/Carts/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Views/Carts/Details.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Views/Carts/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Views/Carts/Edit.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Views/Carts/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Views/Carts/Index.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Views/Carts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Views/Home/ChiTietSanPham.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Views/Home/ChiTietSanPham.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGlUaWV0U2FuUGhhbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Views/Home/Index.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Views/Home/Privacy.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Views/Home/SanPhamTheoLoai.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Views/Home/SanPhamTheoLoai.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYW5QaGFtVGhlb0xvYWkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Views/Orders/Create.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Views/Orders/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Views/Orders/Delete.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Views/Orders/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Views/Orders/Details.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Views/Orders/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Views/Orders/Edit.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Views/Orders/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Views/Orders/Index.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Views/Orders/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Views/Shared/Components/LoaiSpMenu/Default.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Views/Shared/Components/LoaiSpMenu/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTG9haVNwTWVudVxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Views/Shared/Error.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Views/Shared/_LayoutHomepage.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Views/Shared/_LayoutHomepage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRIb21lcGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Views/Users/Create.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Views/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Views/Users/Delete.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Views/Users/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Views/Users/Details.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Views/Users/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Views/Users/Edit.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Views/Users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Views/Users/Index.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Views/Users/Login.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Views/Users/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Views/_ViewImports.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Views/_ViewStart.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Views/Shared/_Layout.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-scwn701n3m
 
-[C:/Users/Admin/Desktop/Sơn/Project-Framework/QuanLyBanHang/Views/Shared/_LayoutCart.cshtml]
+[C:/Users/Admin/Desktop/Project-Framework/QuanLyBanHang/Views/Shared/_LayoutCart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRDYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-ga8yrrj9ha
