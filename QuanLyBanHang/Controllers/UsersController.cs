@@ -24,9 +24,44 @@ namespace QuanLyBanHang.Controllers
         // GET: Users
         public async Task<IActionResult> Index()
         {
-              return _context.Users != null ? 
-                          View(await _context.Users.ToListAsync()) :
-                          Problem("Entity set 'QuanLyBanHangDbContext.Users'  is null.");
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+            var userId = "";
+
+            if (userIdClaim != null)
+            {
+                userId = userIdClaim.Value;
+            }
+
+            var user = _context.Users.SingleOrDefault(o => o.UserId == int.Parse(userId));
+
+            if (user == null || _context.Users == null)
+            {
+                return View();
+            }
+
+            return View(user);
+
+        }
+
+        [HttpGet("IsUserNameUnique")]
+        public IActionResult IsUserNameUnique(string userName, int userId)
+        {
+            var isUnique = !_context.Users.Any(u => u.UserName == userName && u.UserId != userId);
+            return Json(isUnique);
+        }
+
+        [HttpGet("IsPhoneUnique")]
+        public IActionResult IsPhoneUnique(string phone, int userId)
+        {
+            var isUnique = !_context.Users.Any(u => u.Phone == phone && u.UserId != userId);
+            return Json(isUnique);
+        }
+
+        [HttpGet("IsEmailUnique")]
+        public IActionResult IsEmailUnique(string email, int userId)
+        {
+            var isUnique = !_context.Users.Any(u => u.Email == email && u.UserId != userId);
+            return Json(isUnique);
         }
 
         // GET: Users/Details/5
@@ -49,6 +84,9 @@ namespace QuanLyBanHang.Controllers
 
         public IActionResult Login()
         {
+
+            ViewBag.SuccessMessage = TempData["SuccessMessage"] as string;
+
             return View();
         }
         [HttpPost]
@@ -78,10 +116,11 @@ namespace QuanLyBanHang.Controllers
             return RedirectToAction("Index", "Home");
         }
 
+        [Route("LogOut")]
         public IActionResult LogOut()
         {
             HttpContext.SignOutAsync();
-            return View("Login");
+            return RedirectToAction("Index", "Home");
         }
 
         // GET: Users/Create
@@ -95,7 +134,7 @@ namespace QuanLyBanHang.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("UserId,Name,Email,Address,Phone,UserName,PassWord")] User user)
+        public async Task<IActionResult> Create(User user)
         {
             if (ModelState.IsValid)
             {
@@ -103,6 +142,9 @@ namespace QuanLyBanHang.Controllers
 
                 _context.Add(user);
                 await _context.SaveChangesAsync();
+
+                TempData["SuccessMessage"] = "Tạo tài khoản thành công!";
+
                 return RedirectToAction(nameof(Login));
             }
             return View(user);

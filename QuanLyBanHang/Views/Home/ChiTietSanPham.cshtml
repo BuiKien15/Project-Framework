@@ -35,21 +35,24 @@
                         <div class="quantity">
                             @if (ViewBag.Quantity != 0)
                             {
-                                <p>In Stock: @ViewBag.Quantity</p>
+                                <p>Còn hàng: @ViewBag.Quantity</p>
                             } 
                             else
                             {
-                                <p style="color: red;">Out Of Stock</p>
+                                <p style="color: red;">Hết hàng!</p>
                             }
                         </div>
                     </div>
 
-                    @if (ViewBag.Quantity != 0)
+                    @if (User.Identity.IsAuthenticated && User.IsInRole("1"))
                     {
-                        <div>
-                            <a asp-action="AddToCart" asp-controller="Carts" asp-route-productId="@Model.ProductId" class="primary-btn">ADD TO CARD</a>
-                            <a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
-                        </div>
+                        @if (ViewBag.Quantity != 0)
+                        {
+                            <div>
+                                <a asp-action="AddToCart" asp-controller="Carts" asp-route-productId="@Model.ProductId" class="primary-btn">THÊM VÀO GIỎ HÀNG</a>
+                                <a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
+                            </div>
+                        }
                     }
                     
                     <ul>

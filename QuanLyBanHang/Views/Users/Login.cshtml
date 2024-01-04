@@ -3,19 +3,75 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+@if (ViewBag.SuccessMessage != null)
+{
+    <div id="successMessage" class="alert alert-success">@ViewBag.SuccessMessage</div>
+
+    <script>
+        // Tự động ẩn thông báo thành công sau 3 giây
+        setTimeout(function () {
+            var successMessage = document.getElementById('successMessage');
+            if (successMessage) {
+                successMessage.style.display = 'none';
+            }
+        }, 30000);
+    </script>
+}
+
+<div class="d-flex justify-content-center mb-5">
+    <h1>Đăng nhập</h1>
+</div>
+<hr />
+
 <div class="row">
     <div class="col-6 m-auto">
-        <form asp-action="Login" asp-controller="Users">
+        <form asp-action="Login" asp-controller="Users" onsubmit="return validateForm()">
             <div class="form-group">
-                <label for="exampleInputEmail1">User Name</label>
+                <label for="userName">Tài khoản</label>
                 <input type="text" class="form-control" name="userName">
+                <span class="custom-validation-message" style="color: red;"></span>
             </div>
-            <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
+            <div class="form-group">    
+                <label for="passWord">Mật khẩu</label>
                 <input type="password" class="form-control" name="passWord">
+                <span class="custom-validation-message" style="color: red;"></span>
             </div>
-            <button type="submit" class="btn site-btn">Login</button>
-            <button asp-action="Create" asp-controller="Users" class="btn site-btn">Register</button>
-        </form>
+            <div class="d-flex justify-content-between">
+                <button style="min-width: 140px;" type="submit" class="btn site-btn">Đăng nhập</button>
+                <a style="min-width: 140px;" asp-action="Create" asp-controller="Users" class="btn site-btn">Đăng ký</a>
+            </div>
+        </form> 
     </div>
 </div>
+
+<hr />
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+<script>
+    function validateForm() {
+        var userName = document.getElementsByName("userName")[0].value;
+        var passWord = document.getElementsByName("passWord")[0].value;
+
+        if (userName === "") {
+            document.getElementsByClassName("custom-validation-message")[0].innerText = "Vui lòng nhập tên tài khoản";
+            return false;
+        } else {
+            document.getElementsByClassName("custom-validation-message")[0].innerText = "";
+        }
+
+        if (passWord === "") {
+            document.getElementsByClassName("custom-validation-message")[1].innerText = "Vui lòng nhập mật khẩu";
+            return false;
+        } else {
+            document.getElementsByClassName("custom-validation-message")[1].innerText = "";
+        }
+
+        // Tiếp tục xử lý biểu mẫu nếu các trường đã được nhập đúng cách
+        return true;
+    }
+</script>

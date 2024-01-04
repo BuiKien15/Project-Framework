@@ -10,12 +10,11 @@
 <!-- Checkout Section Begin -->
 <section class="checkout spad">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-            </div>
+        <div class="d-flex justify-content-center mb-5">
+            <h1>Thanh toán</h1>
         </div>
         <div class="checkout__form">
-            <h4>Billing Details</h4>
+
             <form asp-action="CheckOut">
                 <div class="row">
                     <div class="col-lg-12">
@@ -23,10 +22,10 @@
                             <table>
                                 <thead>
                                     <tr>
-                                        <th class="shoping__product">Products</th>
-                                        <th>Price</th>
-                                        <th>Quantity</th>
-                                        <th>Total</th>
+                                        <th class="shoping__product">Sản phẩm</th>
+                                        <th>Giá</th>
+                                        <th>Số lượng</th>
+                                        <th>Tổng tiền</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -58,33 +57,40 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-6   ">
-                        <label for="shippingAddress">Shipping Address:</label>
-                        <input type="text" id="shippingAddress" name="shippingAddress" class="form-control" placeholder="Enter shipping address" required>
+                    <div class="form-group col-6">
+
+                        <h5 class="control-label mb-1" for="shippingAddress">Địa chỉ giao hàng:</h5>
+
+                        <input style="height: 42px;" type="text" id="shippingAddress" name="shippingAddress" class="form-control" placeholder="Nhập địa chỉ giao hàng" required>
+
                     </div>
 
-                    <div class="col-6">
-                        <label for="paymentMethod">Payment Method:</label>
-                        <select for="paymentMethod" id="paymentMethod" name="paymentMethod" class="form-control" required>
-                            <option value="creditCard">Credit Card</option>
-                            <option value="paypal">PayPal</option>
+                    <div class="form-group col-6">
+
+                        <h5 class="control-label mb-1" for="paymentMethod">Phương thức thanh toán:</h5>
+
+                        <select style="float: none;" for="paymentMethod" id="paymentMethod" name="paymentMethod" class="form-control" required>
+                            <option value="Thẻ tín dụng">Thẻ tín dụng</option> 
+                            <option value="Thanh toán khi nhận hàng">Thanh toán khi nhận hàng</option>
                         </select>
+
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-12">
                         <div class="shoping__checkout">
-                            <h5>Cart Total</h5>
+                            <h5>Tổng tiền trong giỏ hàng</h5>
                             <ul>
-                                <li>Total <span>@totalCost</span></li>
+                                <li> <h3>Tổng cộng: <span style="font-size: 30px;">@totalCost</span></h3> </li>
                             </ul>
-                            <button type="submit" asp-controller="Carts" asp-action="CheckOut" class="primary-btn">PROCEED TO CHECKOUT</button>
+                            <button style="width: 100%" type="submit" asp-controller="Carts" asp-action="CheckOut" class="site-btn">THANH TOÁN</button>
                         </div>
                     </div>
                 </div>
 
             </form>
+
         </div>
     </div>
 </section>

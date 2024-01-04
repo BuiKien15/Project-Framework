@@ -1,14 +1,19 @@
 ﻿@model IEnumerable<Category>
+
 <div class="col-lg-3">
     <div class="hero__categories">
         <div class="hero__categories__all">
             <i class="fa fa-bars"></i>
-            <span>All departments</span>
+            <span>Tất cả danh mục</span>
         </div>
-        <ul>
+        <ul style="background-color: #fff">
             @foreach(var item in Model)
             {
-             <li><a asp-controller="Home" asp-action="SanPhamTheoLoai" asp-route-category_id="@item.CategoryId">@item.CategoryName</a> </li>   
+                <li>
+                    <a asp-controller="Home" asp-action="SanPhamTheoLoai" asp-route-category_id="@item.CategoryId">
+                        @item.CategoryName
+                    </a> 
+                </li>   
             }
         </ul>
     </div>

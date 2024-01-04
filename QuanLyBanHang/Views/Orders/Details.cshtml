@@ -5,31 +5,34 @@
     Layout = "~/Views/Shared/_LayoutCart.cshtml";
 }
 
+<div class="d-flex justify-content-center mb-5">
+    <h1>Chi tiết đơn hàng</h1>
+</div>
+
 <div class="row">
     <div class="col-md-10 grid-margin stretch-card mx-auto">
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title">Chi tiết đơn hàng</h4>
                 <table style="width:100%">
                     <thead>
                         <tr>
-                            <th class="shoping__product"></th>
-                            <th>Products</th>
-                            <th>Price</th>
-                            <th>Quantity</th>
-                            <th>Total</th>
+                            <th>Sản phẩm</th>
+                            <th class="shoping__product">Ảnh</th>
+                            <th>Giá</th>
+                            <th>Số lượng</th>
+                            <th>Tổng tiền</th>
                             <th></th>
                         </tr>
                     </thead>
                     <tbody>
                         @foreach (var orderItem in Model.OrderItems)
                         {
-                            <tr>
-                                <td class="shoping__cart__item">
-                                    <img style="width:100px;" src="~/images/@orderItem.Product.ImageUrl" alt="">
-                                </td>
+                            <tr class="mb-3">
                                 <td>
                                     <h5>@orderItem.Product.ProductName</h5>
+                                </td>
+                                <td class="shoping__cart__item">
+                                    <img style="width:100px;" src="~/images/@orderItem.Product.ImageUrl" alt="">
                                 </td>
                                 <td class="shoping__cart__price">
                                     @orderItem.SellingPrice
