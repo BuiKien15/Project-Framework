@@ -1,0 +1,92 @@
+﻿@model IEnumerable<QuanLyBanHang.Models.Cart>
+
+@{
+    ViewData["Title"] = "CheckOut";
+    Layout = "~/Views/Shared/_LayoutCart.cshtml";
+
+    decimal? totalCost = 0;
+}
+
+<!-- Checkout Section Begin -->
+<section class="checkout spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+            </div>
+        </div>
+        <div class="checkout__form">
+            <h4>Billing Details</h4>
+            <form asp-action="CheckOut">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="shoping__cart__table">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th class="shoping__product">Products</th>
+                                        <th>Price</th>
+                                        <th>Quantity</th>
+                                        <th>Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td class="shoping__cart__item">
+                                                <img style="width:100px;" src="~/images/@item.Product.ImageUrl" alt="">
+                                                <h5>@item.Product.ProductName</h5>
+                                            </td>
+                                            <td class="shoping__cart__price">
+                                                @item.SellingPrice
+                                            </td>
+                                            <td class="shoping__cart__quantity">
+                                                @item.Quantity
+                                            </td>
+                                            <td class="shoping__cart__total">
+                                                @item.TotalPrice
+                                                @{
+                                                    totalCost += item.TotalPrice;
+                                                }
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="display: flex;">
+                    <div style="flex: 1;">
+                        <label for="shippingAddress" style="display: block;">Shipping Address:</label>
+                        <input type="text" id="shippingAddress" name="shippingAddress" class="form-control" style="width: 100%;" placeholder="Enter shipping address" required>
+                    </div>
+
+                    <div style="flex: 1;">
+                        <label for="paymentMethod" style="display: block;">Payment Method:</label>
+                        <select for="paymentMethod" id="paymentMethod" name="paymentMethod" class="form-control" style="width: 100%;" required>
+                            <option value="creditCard">Chuyển khoản</option>
+                            <option value="paypal">Tiền mặt</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="shoping__checkout">
+                            <h5>Cart Total</h5>
+                            <ul>
+                                <li>Total <span>@totalCost</span></li>
+                            </ul>
+                            <button type="submit" asp-controller="Carts" asp-action="CheckOut" class="primary-btn">THANH TOÁN</button>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</section>
+<!-- Checkout Section End -->
+

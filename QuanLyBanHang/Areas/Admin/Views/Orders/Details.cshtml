@@ -1,0 +1,120 @@
+﻿@model QuanLyBanHang.Models.Order
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-12 grid-margin stretch-card mx-auto">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Detail Order</h4>
+                <form asp-action="Details" class="forms-sample">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <input type="hidden" asp-for="OrderId" />
+                            <div class="form-group">
+                                <label asp-for="User.UserName" class="control-label">Customer Name</label>
+                                <input readonly asp-for="User.UserName" class="form-control" />
+                                <span asp-validation-for="User.UserName" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="TotalAmount" class="control-label">Total Amount</label>
+                                <input readonly asp-for="TotalAmount" class="form-control" />
+                                <span asp-validation-for="TotalAmount" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="PaymentMethod" class="control-label">Payment Method</label>
+                                <input readonly asp-for="PaymentMethod" class="form-control" />
+                                <span asp-validation-for="PaymentMethod" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="OrderDate" class="control-label">Order Date</label>
+                                <input readonly asp-for="OrderDate" class="form-control" />
+                                <span asp-validation-for="OrderDate" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="ShippingAddress" class="control-label">Shipping Address</label>
+                                <input readonly asp-for="ShippingAddress" class="form-control" rows="5"></input>
+                                <span asp-validation-for="ShippingAddress" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Status" class="control-label">Order Status</label>
+                                <input readonly asp-for="Status" class="form-control" />
+                                <span asp-validation-for="Status" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <a class="btn btn-gradient-light" asp-action="Index">Back to List</a>
+                        @if (Model.Status != "Completed")
+                        {
+                            <div style="display:inline-block">
+                                |
+                                <button class="btn btn-gradient-primary btn-group-sm" onclick="updateStatus(@Model.OrderId)">Update Status</button>
+                            </div>
+                        }
+                    </div>
+                </form>
+
+                <h4 class="card-title">Detail Order Items</h4>
+                <table id="table-products" class="table table-striped" style="width:100%">
+                    <thead>
+                        <tr>
+                        <tr>
+                            <th>Product</th>
+                            <th>Quantity</th>
+                            <th>Selling Price</th>
+                            <th>Total Price</th>
+                        </tr>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var orderItem in Model.OrderItems)
+                        {
+                            <tr>
+                                <td>@orderItem.Product.ProductName</td>
+                                <td>@orderItem.Quantity</td>
+                                <td>@orderItem.SellingPrice</td>
+                                <td>@orderItem.TotalPrice</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        function updateStatus(orderId) {
+            // Hiển thị hộp thoại xác nhận
+            if (confirm("Are you sure you want to update the status?")) {
+                // Nếu xác nhận, thực hiện gọi action UpdateStatus trong controller
+                $.ajax({
+                    url: '/Admin/Orders/UpdateStatus/' + orderId,
+                    type: 'POST',
+                    success: function (data) {
+                        // Xử lý khi cập nhật thành công (nếu cần)
+                        alert('Status updated successfully.');
+                        // Có thể làm mới trang hoặc cập nhật dữ liệu trang bằng JavaScript
+                        location.reload();
+                    },
+                    error: function () {
+                        // Xử lý khi có lỗi (nếu cần)
+                        alert('Error updating status.');
+                    }
+                });
+            }
+        }
+    </script>
+}
